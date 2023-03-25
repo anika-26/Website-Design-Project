@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Optiqe</title>
+        <link href="about-pg.html">
+        <link href="product-pg.html">
+        <link href="purchase-pg.html">
+        <link href ="purchase-complete.html">
+        <link href="css/main.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <h1 class="h1-purchase">purchase</h1>
+        
+        <nav class="main-nav">
+            <a href="index.html">home</a>
+            <a href="product-pg.html">product</a>
+            <a href="about-pg.html">about</a>
+        </nav>
+        
+        <h2 class="h2-purchase">Optiqe Glasses</h2>
+        <p class="cost">$250.00</p>
+
+     
+
+        <hr size="3" color="black" class="line" >
+
+        <form class="purchase-form">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" ><br>
+            <label for="flast" >Last name:</label><br>
+            <input type="text" id="flast"><br>
+            <label for="faddress">Address:</label><br>
+            <input type="text" id="faddress"><br>
+            <label for="fcountry">Country:</label><br>
+            <input type="text" id="fcountry"><br>
+            <label for="fprovince">City:</label><br>
+            <input type="text" id="fcity" name="fcity" ><br>
+            <label for="femail">Email:</label><br>
+            <input type="text" id="femail" name="femail" ><br>
+            <label for="fprovince">Province:</label><br>
+            <input type="text" id="fprovince" name="fprovince" ><br>
+            <label for="fpostal">Postal Code:</label><br>
+            <input type="text" id="fpostal" name="fpostal" ><br>
+           
+        </form>
+
+     
+
+        <!--dropdown menu for colours https://www.w3schools.com/css/css_dropdowns.asp -->
+        <div class="dropdown">
+            <button class="col-button">Select Colour</button>
+            <div class="dropdown-content">
+                <a href="#">Blue</a>
+                <a href="#">Red</a>
+                <a href="#">Black</a>
+            </div>
+        </div>
+
+    <!--adding different coloured images-->
+    <img src="img/glasses-1.jpg" class="colour-img" style="max-width: 25%; height: auto;">
+    
+    
+    <a class="button-purchase" href="purchase-complete.html">complete purchase</a>
+    <script src="js/purchase.js"></script>
+    </body>
+</html>

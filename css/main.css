@@ -1,0 +1,437 @@
+
+
+body{
+    background-color: rgb(239, 239, 239);
+    font-family: 'Comfortaa', cursive;
+    overflow-x: hidden;
+    
+    
+}
+
+.title1{
+    font-size: 6vw;
+   
+    position: absolute;
+    left:49vw;
+    top:10vw;
+    
+    
+}
+.container {
+    position: relative;
+    width: 70%;
+}
+
+.container-image2 {
+    position: relative;
+    width: 70%;
+}
+
+.h2-home{
+    font-size:4vw;
+    position:absolute;
+    left:6vw;
+    top:80vw;
+
+}
+
+.h2-home-period{
+    font-size: 4vw;
+    position:absolute;
+    left:45vw;
+    top:80vw;
+    color:rgb(128, 128, 94);
+}
+.main-nav{
+    position:absolute;
+    top:7vw;
+    left:6.5vw;
+    font-size: 1.3vw;
+    
+    
+}
+.main-nav a{
+    padding-right: 1vw;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.main-nav a:hover{
+    text-decoration: underline;
+    color:rgb(128, 128, 94);
+}
+
+
+/*images*/
+
+.cart-link{
+    position: absolute;
+    left:88vw;
+    top:7vw;
+}
+
+.cart-link:hover{
+
+    background-color:rgb(128, 128, 94);
+}
+
+
+.about-h1{
+    position: absolute;
+    left:66vw;
+    top:10vw;
+    font-size: 5vw;
+}
+
+.about-description{
+    position: relative;
+    top: 28vw;
+    left:6vw;
+    width:46vw;
+    font-size: 1.2vw;
+}
+
+.about-img{
+    position:absolute;
+    left:60vw;
+    top:27vw;
+    border-radius: 6px;
+
+    border:5vw solid;
+  
+    border-color: rgb(128, 128, 94);
+    border-style: fill;
+    border-top: 2vw;
+    border-left:3vw;
+    
+  
+}
+
+/*css for product page*/
+.product-h1{
+    position: absolute;
+    left:64vw;
+    top:10vw;
+    font-size: 5vw;
+}
+
+.img-glasses3{
+    position: relative;
+    top:20vw;
+    border-radius: 1vw;
+    left:7vw;
+}
+
+.img-glasses3:hover{
+    filter:drop-shadow(0.7vw 0.7vw 0.8vw grey);
+}
+
+.image{
+    position: absolute;
+    top:26vw;
+    left:0vw;
+    border-radius: 1vw;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+}
+.image:hover{
+    filter:drop-shadow(0.7vw 0.7vw 0.8vw grey);
+}
+
+.img-glasses2{
+    position: absolute;
+    border-radius: 1vw;
+    top: -10vw;
+    left:52vw;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 90vw;
+    left: 50vw;
+    width: 20vw;
+    font-size: 1.2vw;
+    transform: translate(-37vw, -50vw);
+    -ms-transform: translate(-50vw, -50vw);
+    text-align:center;
+  }
+
+.middle-image2 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 55vw;
+    left: 50vw;
+    width: 20vw;
+    font-size: 1.2vw;
+    transform: translate(15vw, -50vw);
+    -ms-transform: translate(-50vw, -50vw);
+    text-align:center;
+  }
+
+  
+
+  /* Image 1 hover over to see text*/
+.container:hover .image{
+    opacity: 0.1;
+}
+.container:hover .middle{
+    opacity: 1;
+}
+ /* Image 2 hover over to see text*/
+.container-image2:hover .img-glasses2{
+    opacity:0.1;
+}
+
+.container-image2:hover .middle-image2{
+    opacity: 1;
+}
+
+.img-glasses2:hover{
+    filter:drop-shadow(0.7vw 0.7vw 0.8vw grey);
+}
+
+.product-h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size:2vw;
+    position: relative;
+    top:10vw;
+    left:30vw;
+    padding-bottom: 2vw;
+}
+
+.product-h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.7vw;
+    font-style: italic;
+    position: relative;
+    left:52.5vw;
+    bottom:10vw;
+
+}
+
+.product-desc{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4vw;
+    position: relative;
+    width:35vw;
+    left:52.5vw;
+    bottom:11vw;
+}
+
+
+/* purchase page */
+
+
+.h1-purchase{
+    position: absolute;
+    left:66vw;
+    top:10vw;
+    font-size: 5vw;
+}
+
+.h2-purchase{
+    position: absolute;
+    font-size: 1.5vw;
+    left:10vw;
+    top:20vw;
+}
+.cost{
+    position:absolute;
+    font-size: 1.3vw;
+    left:10vw;
+    top:23vw;
+}
+
+
+.quantity1{
+    width: 2vw;
+    position: absolute;
+    left:0.2vw;
+}
+
+
+.purchase-form{
+    font-size: 1.3vw;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    top:50vw;
+    left:10vw;
+    
+}
+.purchase-form input{
+    
+    margin-bottom: 1vw;
+    width:20vw;
+    height:1.3vw;
+    
+   
+}
+.form2 {
+    font-size: 1.3vw;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    top:62.5vw;
+    left:40vw;
+}
+
+.form2 input{
+    margin-bottom: 1vw;
+    width:20vw;
+    height:1.3vw;
+}
+
+
+.line{
+    position: absolute;
+    top:26.5vw;
+    height:0.005vw;
+    background-color: rgb(128, 128, 94);
+    border-color: rgb(128, 128, 94);
+    width:80vw;
+    left:10vw;
+}
+
+.button-purchase{
+    font-family: 'Comfortaa', cursive;
+    background-color:rgb(128, 128, 94);
+    color:white;
+    position: absolute;
+    left:10vw;
+    top:89vw;
+    width:15vw;
+     height:2.5vw;
+    border-style: hidden;
+    font-size: 1.1vw;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 1.2vw;
+   
+}
+
+.button-purchase:hover{
+    background-color:rgb(110, 110,81);
+    
+}
+
+/*dropdown menu css on purchase page*/
+
+.dropdown{
+    position: absolute;
+    display: inline-block;
+    font-size: 1.2vw;
+    top:29vw;
+    left:40vw;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(128, 128, 94);
+    min-width: 10vw;
+    box-shadow: 0vw 0.05vw 4vw 0vw rgba(0,0,0,0.2);
+    padding: 1vw 1vw;
+    z-index:1;
+}
+
+.dropdown-content a{
+    color: white;
+    padding: 1vw 1vw;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background-color: rgb(110, 110,81);
+}
+.dropdown-content a:focus{
+    background-color: white;
+}
+.dropdown-content a:first-child:hover{
+    
+    content: url('../img/glasses-blue.jpg'); 
+    width:20vw;
+    
+}
+
+.dropdown-content a:nth-child(2):hover{
+    content: url('../img/glasses-red.jpg'); 
+    width:20vw;
+}
+
+.dropdown-content a:last-child:hover{
+    content: url('../img/glasses-1.jpg'); 
+    width:20vw;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+   
+}
+
+.colour-img{
+    position: absolute;
+    top:29vw;
+    left:10vw;
+    
+}
+
+.red-img{
+    position: absolute;
+    top:29vw;
+    left:10vw;
+    content: url('../img/glasses-red.jpg'); /*replaces img*/
+}
+
+.blue-img{
+    position: absolute;
+    top:29vw;
+    left:10vw;
+    content: url('../img/glasses-blue.jpg'); 
+}
+
+.black-img{
+    position: absolute;
+    top:29vw;
+    left:10vw;
+    content: url('../img/glasses-1.jpg'); 
+}
+
+
+.col-button{
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.1vw;;
+    background-color:rgb(128, 128, 94);
+    border: hidden;
+    height: 2.5vw;
+    width:12vw;
+    color:white;
+}
+
+
+
+/*purchase complete page*/
+
+.purchase-msg{
+    position: absolute;
+    top:24vw;
+    left:22vw;
+  
+   
+}
+
+.contact{
+    position: absolute;
+    left:6.5vw;
+    top:60vw;
+}
